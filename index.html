@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sean O'Hare</title>
+  </head>
+  <body>
+    <!--Body-->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm fixed-top" id="top-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#Home">Sean O'Hare</a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link nav-link-page" href="#Home"><i class="fas fa-home"></i> Home</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-page" href="#Projects"><i class="fas fa-terminal"></i> Projects</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-page" href="#About"><i class="fas fa-male"></i> About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="img/Résumé.pdf" target="_blank"><i class="fas fa-briefcase"></i> Résumé</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--Main Section-->
+    <div class="section-home" id="Home" style="background: url(img/hongkong.jpg);">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-sm-6"><img class="headshot"src="img/headshot.jpg" alt="" /></div>
+            <div class="col-sm-6">
+              <div class="card home-card text-black">
+                <div class="card-header">  
+                  <h2 class="home-card-title card-title d-inline">Sean O'Hare</h2>
+                  <a href="https://medium.com/@seanohare98" target="_blank"><i class="contact-icon fab fa-medium fa-2x fa-spin-hover"></i></a>
+                  <a href="https://github.com/seanohare98" target="_blank"><i class="contact-icon fab fa-github-square fa-2x fa-spin-hover"></i></a>
+                  <a href="https://www.linkedin.com/in/sean-ohare/" target="_blank"><i class="contact-icon fab fa-linkedin fa-2x fa-spin-hover"></i></a>
+                </div>
+                <div class="card-body">
+                  <p class="home-card-text card-text">Hi, and welcome to my site!</p>
+                  <p class="home-card-text card-text">I'm a 3rd year computer science and scholarship student at the Chinese University of Hong Kong with a passion for solving problems (of any size) using technology.</p>
+                  <p class="home-card-text card-text">In my spare time I like to code, train for track and field, watch movies, and read.</p>
+                  <p class="home-card-text card-text"><i class="fas fa-envelope"></i> Email: seanohare@link.cuhk.edu.hk</p>
+                  <p class="home-card-text card-text"><i class="fas fa-passport"></i> Nationality: USA</p>
+                  <p class="home-card-text card-text"><i class="fas fa-user-graduate"></i> Expected Graduation: December 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <!--Projects Section-->
+    <div class="section-projects" id="Projects">
+      <div class="container">
+        <h1 class="project-header">projects<span id="underscore">_</span></h1>
+        <div class="row">
+        <div class="col-sm-6">
+          <div class="card project-card">
+            <div class="card-body msu-migration-card">
+              <h3 class="card-title text-center">migration web app</h3>
+              <p class="card-text text-center">full-stack web app built for MSU IT to streamline the summer '18 campus migration project</p>
+              <p class="card-text text-center">tools/tech: html/css/javascript/node/express</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card project-card hospital-api-card">
+              <div class="card-body">
+                <h3 class="card-title text-center">hospital api</h3>
+                <p class="card-text text-center">rest api using mongoose queries and asynchronous functions to handle appointment booking and doctor lookup</p>
+                <p class="card-text text-center">tools/tech: node/express/mongodb</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-6">
+              <div class="card project-card avl-tree-card">
+                <div class="card-body">
+                  <h3 class="card-title text-center">avl tree</h3>
+                  <p class="card-text text-center">implemented a self-balancing avl tree with insertion and predecessor-query algorithms</p>
+                  <p class="card-text text-center">tools/tech: c++</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card project-card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">coming soon!</h3>
+                    <p class="card-text text-center">tfrrs.org clone (web + mobile) to rank track and field athletes in hong kong</p>
+                    <p class="card-text text-center">tools/tech: reactjs + native, postgresql</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--About Section-->
+    <div class="section-about" id="About">
+      <div class="container"> 
+        <h1 class="about-header">a little more about me:</h1>
+        <div class="about-row row">
+          <div class="col-sm-4">
+            <h2 class="text-center about-title">life</h2>
+            <div class="row">
+              <div class="about-timeline col-sm-6">
+                <h4 class="about-text-white text-right">born</h4>
+                <h4 class="about-text-white text-right about-timeline-content-1-2">raised</h4>
+                <h4 class="about-text-white text-right about-timeline-content-1-3">live</h4>
+              </div>
+              <div class="about-timeline-right col-sm-6">
+                  <h4 class="about-text-white">tokyo</h4>
+                  <h4 class="about-text-white about-timeline-content-1-2">shanghai</h4>
+                  <h4 class="about-text-white">michigan</h4>
+                  <h4 class="about-text-white about-timeline-content-1-3-right">hong kong</h4>
+                  <p class="filler-line"></p>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4">
+              <h2 class="text-center about-title">work</h2>
+              <div class="row">
+                  <div class="about-timeline col-sm-6">
+                    <h4 class="about-text-white text-right">summer</h4>
+                    <h4 class="about-text-white text-right">2017</h4>
+                    <h4 class="about-text-white text-right about-timeline-content-2-2">summer 2018</h4>
+                    <h4 class="about-text-white text-right about-timeline-content-2-3">summer 2019</h4>
+                  </div>
+                  <div class="about-timeline-right col-sm-6">
+                      <h4 class="about-text-white">time out shanghai</h4>
+                      <h4 class="about-text-white about-timeline-content-2-2-right">michigan state information technology</h4>
+                      <h4 class="about-text-white about-timeline-content-2-3-right">(currently seeking)</h4>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <h2 class="text-center about-title">play</h2>
+              <div class="row">
+                  <div class="play-col col-sm-12 play-border">
+                    <h4 class="about-text-white text-left">avid track and field fan and competitor...<i class="fas fa-running"></i></h4>
+                    <h4 class="about-text-white text-center">some personal bests:</h4>
+                    <h6 class="about-text-white text-right">long jump: 6.60m/21ft8in</h6>
+                    <h6 class="about-text-white text-right">high jump: 1.84m/6ft0.5in</h6>
+                    <h6 class="about-text-white text-right">broad jump: 3.15m/10ft4in</h6>
+                    <h6 class="about-text-white text-right">vertical jump: 86cm/34in</h6>
+                    <h6 class="about-text-white text-right">30m dash: 4.10sec (FAT)</h6>
+                    <h4 class="about-text-white text-left play-section-2">film enthusiast <i class="fas fa-film"></i></h4>
+                    <h4 class="about-text-white text-center">some recent favorites:</h4>
+                    <h6 class="about-text-white text-right">amadeus</h6>
+                    <h6 class="about-text-white text-right">they look like people</h6>
+                    <h6 class="about-text-white text-right">primer</h6>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2019</p>
+    </div>
+    <!----------->
+    <!----------->
+    <!--Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
